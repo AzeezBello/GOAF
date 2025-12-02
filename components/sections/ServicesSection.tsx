@@ -3,11 +3,11 @@ import {
   Truck,
   FileCheck2,
   Boxes,
-  SteeringWheel,
   Ship,
   Settings,
   BadgeCheck,
 } from "lucide-react";
+
 import ServiceCard from "@/components/ServiceCard";
 
 export default function ServicesSection() {
@@ -15,12 +15,12 @@ export default function ServicesSection() {
     {
       title: "Vehicle Sourcing & Procurement",
       desc: "End-to-end sourcing of brand-new and certified used vehicles globally. We negotiate pricing, verify condition, and ensure full compliance before purchase.",
-      icon: <Car />,
+      icon: <Car/>,
     },
     {
       title: "Corporate Fleet Supply",
       desc: "Scalable fleet provisioning for enterprises—saloon cars, SUVs, buses, pickups, and utility vehicles. Long-term, short-term, or flexible leasing plans available.",
-      icon: <SteeringWheel />,
+      icon: <Truck />,
     },
     {
       title: "Car Import & Clearing",
