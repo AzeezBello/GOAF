@@ -1,5 +1,11 @@
 import { notFound } from "next/navigation";
 
+export const metadata = {
+  title: "{Car Name} - GOAF International Company",
+  description:
+    "Detailed information and specifications for {Car Name}, available for sale or lease across Africa.",
+};
+
 const cars = [
   {
     id: 1,

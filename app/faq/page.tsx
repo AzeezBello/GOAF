@@ -1,3 +1,10 @@
+export const metadata = {
+  title: "FAQ - GOAF International Company",
+  description:
+    "Frequently asked questions about our used car import, truck sales, and leasing services in Africa.",
+};
+
+
 const faqs = [
   {
     question: "Do you ship vehicles across Africa?",
@@ -24,12 +31,6 @@ const faqs = [
 export default function FAQPage() {
   return (
     <main className="container mx-auto px-4 py-20">
-
-      <Head>
-        <title>FAQ - GOAF International Company</title>
-        <meta name="description" content="Frequently asked questions about our used car import, truck sales, and leasing services in Africa." />
-      </Head>
-
       <h1 className="text-4xl font-bold mb-8 text-center">Frequently Asked Questions</h1>
 
       <div className="max-w-3xl mx-auto space-y-6">
@@ -40,7 +41,7 @@ export default function FAQPage() {
           </div>
         ))}
       </div>
-
+      
       <div className="mt-12 flex justify-center gap-4">
         <Link href="/inventory" className="px-6 py-3 rounded-md bg-primary text-white font-medium">Browse Vehicles</Link>
         <Link href="#contact" className="px-6 py-3 rounded-md border border-primary text-primary font-medium">Request a Quote</Link>

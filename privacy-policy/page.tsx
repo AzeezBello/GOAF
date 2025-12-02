@@ -1,3 +1,10 @@
+export const metadata = {
+  title: "Privacy Policy - GOAF International Company",
+  description:
+    "Read how Goaf International Company protects your personal information and maintains your privacy.",
+};
+
+
 export default function PrivacyPolicyPage() {
   return (
     <main className="container mx-auto px-4 py-20 max-w-4xl">

@@ -1,5 +1,11 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Vehicle Inventory - GOAF International Company",
+  description:
+    "Browse our wide range of quality used cars and trucks from Europe and the USA.",
+};
+
 const cars = [
   {
     id: 1,

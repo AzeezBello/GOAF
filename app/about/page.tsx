@@ -1,14 +1,15 @@
 import Image from "next/image";
 
+export const metadata = {
+  title: "About Us - GOAF International Company",
+  description:
+    "Learn about Goaf International Company, Africa's leading used car and truck import and leasing service provider.",
+};
+
+
 export default function AboutPage() {
   return (
     <main className="container mx-auto px-4 py-20">
-      
-      <Head>
-        <title>About Us - GOAF International Company</title>
-        <meta name="description" content="Learn about Goaf International Company, Africa's leading used car and truck import and leasing service provider." />
-      </Head>
-
       <section className="max-w-4xl mx-auto text-center">
         <h1 className="text-4xl font-bold mb-6">About Goaf International Company</h1>
         <p className="text-lg text-slate-700 mb-4">
@@ -48,7 +49,7 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-
+      
       <div className="mt-12 flex justify-center gap-4">
         <Link href="/inventory" className="px-6 py-3 rounded-md bg-primary text-white font-medium">View Inventory</Link>
         <Link href="#contact" className="px-6 py-3 rounded-md border border-primary text-primary font-medium">Contact Us</Link>
