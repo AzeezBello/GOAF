@@ -1,3 +1,8 @@
+// app/about/page.tsx
+
+import Link from "next/link";
+
+
 export const metadata = {
   title: "FAQ - GOAF International Company",
   description:

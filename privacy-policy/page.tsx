@@ -1,3 +1,4 @@
+
 export const metadata = {
   title: "Privacy Policy - GOAF International Company",
   description:
