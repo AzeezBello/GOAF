@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 
 export const metadata = {
@@ -54,7 +55,7 @@ export default function InventoryPage() {
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {cars.map((car) => (
           <div key={car.id} className="border rounded-lg overflow-hidden hover:shadow-lg transition">
-            <img src={car.image} alt={car.name} className="w-full h-48 object-cover" />
+            <Image src={car.image} alt={car.name} className="w-full h-48 object-cover" width={400} height={192} />
             <div className="p-4">
               <h3 className="text-xl font-semibold">{car.name}</h3>
               <p className="text-slate-600 mt-2">{car.price}</p>
