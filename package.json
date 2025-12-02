@@ -15,7 +15,6 @@
     "clsx": "^1.2.1",
     "@radix-ui/react-icons": "^1.0.6",
     "@radix-ui/react-tooltip": "^1.0.4",
-    "@shadcn/ui": "^1.0.0",
     "lucide-react": "^0.276.0"
   },
   "devDependencies": {
@@ -23,6 +22,7 @@
     "tailwindcss": "^4.4.0",
     "postcss": "^8.4.21",
     "autoprefixer": "^10.4.13",
+    "shadcn-ui": "latest",
     "eslint": "8.57.0",
     "@next/eslint-plugin-next": "14.2.3"
 
