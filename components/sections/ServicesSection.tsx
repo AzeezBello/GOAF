@@ -8,7 +8,7 @@ import {
   BadgeCheck,
 } from "lucide-react";
 
-import ServiceCard from "@/components/ServiceCard";
+import ServiceCard from "../../components/ServiceCard";
 
 export default function ServicesSection() {
   const services = [
