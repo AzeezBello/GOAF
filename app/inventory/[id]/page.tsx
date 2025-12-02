@@ -9,25 +9,40 @@ export const metadata = {
 const cars = [
   {
     id: 1,
-    name: "Toyota Corolla 2018",
+    name: "DAF Truck 2015",
     price: "$12,500",
-    image: "/assets/inventory/toyota-corolla.jpg",
+    image: "/assets/inventory/Goaf-Daf-truck.jpg",
     description: "Certified used Toyota Corolla, well-maintained, full service history.",
   },
   {
     id: 2,
-    name: "BMW 5 Series 2017",
+    name: "Ford truck 2020",
     price: "$18,200",
-    image: "/assets/inventory/bmw-5series.jpg",
+    image: "/assets/inventory/Goaf-Daf-truck1.jpeg",
     description: "Luxury sedan with excellent performance and low mileage.",
   },
   {
     id: 3,
-    name: "Mercedes-Benz Actros Truck 2019",
+    name: "Ford F-150 2019",
     price: "$45,000",
-    image: "/assets/inventory/mercedes-truck.jpg",
+    image: "/assets/inventory/Goaf-Daf-truck2.jpeg",
     description: "Heavy-duty truck ideal for freight and logistics operations.",
   },
+  {
+    id: 4,
+    name: "Chevrolet Silverado 1500 2016",
+    price: "$30,000",
+    image: "/assets/inventory/Goaf-Daf-truck3.jpeg",
+    description: "Reliable pickup truck with great towing capacity and off-road capabilities.",
+  },
+  {
+    id: 5,
+    name: "Scania R-Series Truck 2018",
+    price: "$15,500",
+    image: "/assets/inventory/Goaf-Daf-truck4.jpeg",
+    description: "Sporty sedan with advanced features and a comfortable interior.",
+  },
+  // Add more vehicles as needed
 ];
 
 interface Params {
