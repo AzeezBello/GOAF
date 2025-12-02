@@ -19,9 +19,9 @@
   },
   "devDependencies": {
     "typescript": "^5.5.0",
-    "tailwindcss": "^4.4.0",
-    "postcss": "^8.4.21",
-    "autoprefixer": "^10.4.13",
+    "tailwindcss": "^3.4.1",
+    "postcss": "8.4.35",
+    "autoprefixer": "10.4.17",
     "shadcn-ui": "latest",
     "eslint": "8.57.0",
     "@next/eslint-plugin-next": "14.2.3"
