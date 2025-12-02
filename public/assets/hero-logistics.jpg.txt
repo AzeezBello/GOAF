@@ -1,0 +1,1 @@
+Add a hero image at this path: /public/assets/hero-logistics.jpg
