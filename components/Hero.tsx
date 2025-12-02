@@ -2,47 +2,78 @@ import Link from 'next/link'
 
 export default function Hero() {
   return (
-    <section className="bg-white">
-      <div className="container py-20 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-        <div>
-          <h2 className="text-4xl font-bold leading-tight">
-            Premium Trucks & Cars — Ready for Your Business
-          </h2>
+    <section className="bg-gradient-to-br from-slate-50 to-slate-100 py-20">
+      <div className="container grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
-          <p className="mt-6 text-lg text-slate-600">
-            GOAF supplies high-quality trucks, commercial vehicles, and 
-            premium cars sourced from trusted global partners. 
-            Reliable, inspected, and delivered with full documentation.
+        {/* LEFT CONTENT */}
+        <div>
+          <div className="flex gap-3 mb-6">
+            <span className="px-3 py-1 text-xs font-medium bg-primary/10 text-primary rounded-full">
+              Trusted Import Experts
+            </span>
+            <span className="px-3 py-1 text-xs font-medium bg-emerald-100 text-emerald-600 rounded-full">
+              Verified Vehicles Only
+            </span>
+          </div>
+
+          <h1 className="text-4xl md:text-5xl font-extrabold leading-tight text-slate-900">
+            Premium Trucks & Cars <br />
+            <span className="text-primary">Delivered Ready for Business</span>
+          </h1>
+
+          <p className="mt-6 text-lg text-slate-600 max-w-xl">
+            GOAF supplies high-quality trucks, commercial vehicles, SUVs and 
+            premium cars — fully inspected, transparently sourced, and delivered 
+            with complete documentation and customs clearance.
           </p>
 
-          <div className="mt-8 flex gap-4">
+          {/* CTA BUTTONS */}
+          <div className="mt-8 flex flex-wrap gap-4">
             <Link 
-              href="#inventory" 
-              className="inline-block px-6 py-3 rounded-md bg-primary text-white font-medium"
+              href="/inventory"
+              className="inline-block px-7 py-3 rounded-md bg-primary text-white font-semibold shadow hover:opacity-90 transition"
             >
               View Inventory
             </Link>
+
             <Link 
-              href="#contact" 
-              className="inline-block px-6 py-3 rounded-md border"
+              href="#why-us"
+              className="inline-block px-7 py-3 rounded-md border border-slate-300 font-medium hover:bg-white/50 transition"
             >
-              Request a Quote
+              Why Choose GOAF
             </Link>
           </div>
 
-          <div className="mt-8 text-sm text-slate-500">
-            Supplying fleets and individuals across West Africa — trucks, 
-            SUVs, sedans, and heavy-duty commercial vehicles.
+          {/* TRUST BADGES */}
+          <div className="mt-10 flex flex-wrap gap-6 text-sm text-slate-600">
+            <div className="flex items-center gap-2">
+              <span className="w-2 h-2 bg-primary rounded-full"></span>
+              Certified global partners
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="w-2 h-2 bg-primary rounded-full"></span>
+              Documentation handled end-to-end
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="w-2 h-2 bg-primary rounded-full"></span>
+              Delivery across West Africa
+            </div>
           </div>
         </div>
 
-        <div className="rounded-lg overflow-hidden shadow-lg">
-          <img
-            src="/assets/hero-vehicles.jpg"
-            alt="Vehicles for sale"
-            className="w-full h-80 object-cover"
-          />
+        {/* RIGHT IMAGE */}
+        <div className="relative group">
+          <div className="absolute inset-0 rounded-xl bg-primary/10 blur-2xl opacity-30 group-hover:opacity-40 transition"></div>
+
+          <div className="relative rounded-xl overflow-hidden shadow-2xl border border-slate-200">
+            <img
+              src="/assets/hero-vehicles.jpg"
+              alt="GOAF Vehicle Fleet"
+              className="w-full h-96 object-cover"
+            />
+          </div>
         </div>
+
       </div>
     </section>
   )
