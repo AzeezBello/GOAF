@@ -42,6 +42,41 @@ const cars = [
     image: "/assets/inventory/Goaf-Daf-truck4.jpeg",
     description: "Sporty sedan with advanced features and a comfortable interior.",
   },
+  {
+    id: 6,
+    name: "Scania R-Series Truck 2018",
+    price: "$15,500",
+    image: "/assets/inventory/Goaf-Daf-truck6.jpeg",
+    description: "Sporty sedan with advanced features and a comfortable interior.",
+  },
+  {
+    id: 7,
+    name: "Scania R-Series Truck 2018",
+    price: "$15,500",
+    image: "/assets/inventory/Goaf-Daf-truck7.jpeg",
+    description: "Sporty sedan with advanced features and a comfortable interior.",
+  },
+  {
+    id: 8,
+    name: "Scania R-Series Truck 2018",
+    price: "$15,500",
+    image: "/assets/inventory/Goaf-Daf-truck8.jpeg",
+    description: "Sporty sedan with advanced features and a comfortable interior.",
+  },
+  {
+    id: 9,
+    name: "Scania R-Series Truck 2018",
+    price: "$15,500",
+    image: "/assets/inventory/Goaf-Daf-truck9.jpeg",
+    description: "Sporty sedan with advanced features and a comfortable interior.",
+  },
+  {
+    id: 10,
+    name: "Scania R-Series Truck 2018",
+    price: "$15,500",
+    image: "/assets/inventory/Goaf-Daf-truck10.jpeg",
+    description: "Sporty sedan with advanced features and a comfortable interior.",
+  },
   // Add more vehicles as needed
 ];
 
