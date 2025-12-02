@@ -1,21 +1,17 @@
-import { site } from '../lib/siteMetadata'
+import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-slate-50 border-t mt-16">
-      <div className="container py-10 flex flex-col md:flex-row justify-between items-start gap-6">
-        <div>
-          <h3 className="text-lg font-semibold">{site.title}</h3>
-          <p className="text-sm text-slate-600 max-w-sm mt-2">{site.description}</p>
-        </div>
-        <div className="text-sm text-slate-600">
-          <p>{site.company}</p>
-          <p>{site.address}</p>
-          <p>{site.phone}</p>
-          <p>{site.email}</p>
-        </div>
+    <footer className="bg-slate-100 py-8 mt-20">
+      <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+        <p className="text-slate-600 text-sm">&copy; {new Date().getFullYear()} Goaf International Company. All rights reserved.</p>
+        <nav className="space-x-4 mt-4 md:mt-0">
+          <Link href="/about" className="text-slate-700 hover:text-primary text-sm">About</Link>
+          <Link href="/inventory" className="text-slate-700 hover:text-primary text-sm">Inventory</Link>
+          <Link href="/faq" className="text-slate-700 hover:text-primary text-sm">FAQ</Link>
+          <Link href="/privacy-policy" className="text-slate-700 hover:text-primary text-sm">Privacy Policy</Link>
+        </nav>
       </div>
-      <div className="border-t py-4 text-center text-xs text-slate-500">© {new Date().getFullYear()} {site.company}. All rights reserved.</div>
     </footer>
-  )
+  );
 }

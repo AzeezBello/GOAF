@@ -1,29 +1,19 @@
-import Link from 'next/link'
-import { site } from '../lib/siteMetadata'
+import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="bg-white shadow-sm">
-      <div className="container flex items-center justify-between py-4">
-        <Link href="/" className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-md bg-gradient-to-r from-primary to-accent flex items-center justify-center text-white font-bold">G</div>
-          <div>
-            <h1 className="text-lg font-semibold">{site.title}</h1>
-            <p className="text-xs text-slate-500">{site.company}</p>
-          </div>
+    <header className="bg-white shadow-md">
+      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
+        <Link href="/" className="text-2xl font-bold text-primary">
+          GOAF
         </Link>
-
-        <nav className="hidden md:flex gap-6 items-center text-sm">
-          <Link href="#services" className="hover:text-primary">Services</Link>
-          <Link href="#about" className="hover:text-primary">About</Link>
-          <Link href="#contact" className="hover:text-primary">Contact</Link>
-          <a href={`mailto:${site.email}`} className="px-4 py-2 rounded-md border border-slate-200 hover:bg-slate-50">Get a quote</a>
+        <nav className="space-x-6">
+          <Link href="/about" className="text-slate-700 hover:text-primary font-medium">About</Link>
+          <Link href="/inventory" className="text-slate-700 hover:text-primary font-medium">Inventory</Link>
+          <Link href="/faq" className="text-slate-700 hover:text-primary font-medium">FAQ</Link>
+          <Link href="/privacy-policy" className="text-slate-700 hover:text-primary font-medium">Privacy Policy</Link>
         </nav>
-
-        <div className="md:hidden">{/* mobile menu placeholder */}
-          <button aria-label="open menu" className="px-3 py-2 rounded-md border">Menu</button>
-        </div>
       </div>
     </header>
-  )
+  );
 }
