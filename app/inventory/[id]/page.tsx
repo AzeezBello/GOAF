@@ -86,8 +86,6 @@ const cars = [
     price: "€15,500",
     images: [
       "/assets/inventory/Goaf-Daf-truck4.jpeg",
-      "/assets/inventory/Goaf-Daf-truck9.jpeg",
-      "/assets/inventory/Goaf-Daf-truck10.jpeg",
     ],
     description:
       "High-performance Scania R-Series truck designed for efficiency and comfort. Features a powerful engine and ergonomic cabin. Ideal for long-haul transport across various terrains.",
@@ -102,15 +100,14 @@ const cars = [
   },
   {
     id: 6,
-    name: "Scania R-Series Truck 2018",
+    name: "Sinotruk HOWO 6x4 dump truck 2018",
     price: "€15,500",
     images: [
       "/assets/inventory/Goaf-Daf-truck6.jpeg",
-      "/assets/inventory/Goaf-Daf-truck11.jpeg",
-      "/assets/inventory/Goaf-Daf-truck12.jpeg",
+      "/assets/inventory/Goaf-Daf-truck9.jpeg",
     ],
     description:
-      "High-performance Scania R-Series truck designed for efficiency and comfort. Features a powerful engine and ergonomic cabin. Ideal for long-haul transport across various terrains.",
+      "Built for heavy-duty construction and mining tasks. Features a robust chassis and high-capacity dump bed. Reliable performance in tough working conditions.",
     specs: {
       Year: "2018",
       Mileage: "120,000 km",
@@ -125,8 +122,6 @@ const cars = [
     price: "€15,500",
     images: [
       "/assets/inventory/Goaf-Daf-truck7.jpeg",
-      "/assets/inventory/Goaf-Daf-truck13.jpeg",
-      "/assets/inventory/Goaf-Daf-truck14.jpeg",
     ],
     description:
       "Truck with advanced features and a comfortable interior.",
@@ -145,8 +140,6 @@ const cars = [
     price: "€15,500",
     images: [
       "/assets/inventory/Goaf-Daf-truck8.jpeg",
-      "/assets/inventory/Goaf-Daf-truck15.jpeg",
-      "/assets/inventory/Goaf-Daf-truck16.jpeg",
     ],
     description:
       "Truck with advanced features and a comfortable interior.",
@@ -161,32 +154,10 @@ const cars = [
   },
   {
     id: 9,
-    name: "Scania R-Series Truck 2018",
-    price: "€15,500",
-    images: [
-      "/assets/inventory/Goaf-Daf-truck9.jpeg",
-      "/assets/inventory/Goaf-Daf-truck17.jpeg",
-      "/assets/inventory/Goaf-Daf-truck18.jpeg",
-    ],
-    description:
-      "High-performance Scania R-Series truck designed for efficiency and comfort. Features a powerful engine and ergonomic cabin. Ideal for long-haul transport across various terrains.",
-    specs: {
-      Year: "2018",
-      Mileage: "120,000 km",
-      Engine: "13-Liter Inline-6 Turbo Diesel",
-      Transmission: "Manual",
-      Condition: "Used (Export Ready)",
-      Location: "Almere, Holland",
-    },
-  },
-    {
-    id: 10,
     name: "Honda Accord 2019",
     price: "€15,500",
     images: [
       "/assets/inventory/Goaf-Daf-truck10.jpeg",
-      "/assets/inventory/Goaf-Daf-truck19.jpeg",
-      "/assets/inventory/Goaf-Daf-truck20.jpeg",
     ],
     description:
       "Sporty sedan with advanced features and a comfortable interior.",
