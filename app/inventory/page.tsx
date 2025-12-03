@@ -46,10 +46,10 @@ const cars = [
   },
   {
     id: 6,
-    name: "Scania R-Series Truck 2018",
+    name: "Sinotruk HOWO 6x4 dump truck 2018",
     price: "€15,500",
     image: "/assets/inventory/Goaf-Daf-truck6.jpeg",
-    description: "Sporty sedan with advanced features and a comfortable interior.",
+    description: "Built for heavy-duty construction and mining tasks. Features a robust chassis and high-capacity dump bed. Reliable performance in tough working conditions.",
   },
   {
     id: 7,
