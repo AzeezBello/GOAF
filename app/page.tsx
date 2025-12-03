@@ -23,8 +23,8 @@ export default function Home() {
         <div className="text-center max-w-2xl mx-auto">
           <h3 className="text-3xl font-semibold">Our Services</h3>
           <p className="text-slate-600 mt-4 leading-relaxed">
-            Complete automotive sourcing, importation and logistics solutions for individuals,
-            dealerships and organizations across Nigeria and West Africa.
+            Complete Cars and Trucks sourcing, importation and logistics solutions for individuals,
+            dealerships and organizations in Holland.
           </p>
         </div>
 
@@ -91,7 +91,7 @@ export default function Home() {
       <section id="testimonials" className="bg-slate-50 py-20">
         <div className="container">
           <h3 className="text-3xl font-semibold">What Clients Say</h3>
-          <p className="text-slate-600 mt-2">Trusted by individuals & organizations across Nigeria.</p>
+          <p className="text-slate-600 mt-2">Trusted by individuals & organizations.</p>
 
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="p-6 rounded-xl bg-white shadow-sm hover:shadow-lg transition">
@@ -203,7 +203,7 @@ export default function Home() {
               </div>
               <div className="p-5">
                 <h4 className="text-lg font-semibold">DAF XF 2015</h4>
-                <p className="text-slate-600 mt-1">$12,500</p>
+                <p className="text-slate-600 mt-1">€12,500</p>
               </div>
             </div>
 
@@ -215,7 +215,7 @@ export default function Home() {
               />
               <div className="p-5">
                 <h4 className="text-lg font-semibold">Ford F-150 2019</h4>
-                <p className="text-slate-600 mt-1">$45,000</p>
+                <p className="text-slate-600 mt-1">€45,000</p>
               </div>
             </div>
 
@@ -227,7 +227,7 @@ export default function Home() {
               />
               <div className="p-5">
                 <h4 className="text-lg font-semibold">Scania R-Series 2018</h4>
-                <p className="text-slate-600 mt-1">$15,500</p>
+                <p className="text-slate-600 mt-1">€15,500</p>
               </div>
             </div>
 
