@@ -1,8 +1,8 @@
 export const site = {
   title: 'GOAF International Company',
-  description: 'GOAF — Sales of truck and cars in Nigeria',
+  description: 'GOAF — Sales of truck and cars in Holland',
   company: 'GOAF International Company',
-  email: 'hello@goaf.com',
-  phone: '+234 800 000 0000',
-  address: 'Lagos, Nigeria'
+  email: 'femijeje01@yahoo.com',
+  phone: '+31 643451612',
+  address: 'Mahoniestraat 86, 1339EX, Almere Holland'
 }
